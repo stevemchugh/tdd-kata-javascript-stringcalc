@@ -60,6 +60,7 @@
     <Content Include="Scripts\StringCalc.js" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="JSLintNet.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />

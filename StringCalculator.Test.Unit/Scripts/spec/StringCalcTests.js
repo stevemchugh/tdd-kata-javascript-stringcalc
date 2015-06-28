@@ -1,20 +1,21 @@
 ﻿/// <reference path="../StringCalc.js" />
 
-describe("String Calulator", function() {
+describe("String Calulator", function () {
+    'use strict';
 
     var calc;
 
-    beforeEach(function() {
+    beforeEach(function () {
         calc = new StringCalc();
     });
 
-    it("will not be null", function() {
+    it("should not be null", function () {
         expect(calc).not.toBeNull();
     });
 
-    describe("when passed no numbers to calculate", function() {
+    describe("when passed no numbers to calculate", function () {
 
-        it("will return 0", function() {
+        it("should return 0", function () {
             expect(calc.add()).toBe(0);
         });
 

@@ -1,0 +1,16 @@
+﻿{
+  "ignore": [
+    "\\Scripts\\jasmine-html.js",
+    "\\Scripts\\jasmine.js"
+  ],
+  "options": {
+    "predef": {
+      "describe": true,
+      "beforeEach": true,
+      "it": true,
+      "expect": true
+    }
+  },
+  "runOnSave": true,
+  "runOnBuild": true
+}

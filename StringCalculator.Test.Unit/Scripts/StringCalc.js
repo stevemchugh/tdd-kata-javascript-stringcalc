@@ -1,9 +1,11 @@
-﻿StringCalc = (function() {
+﻿StringCalc = (function () {
+    'use strict';
+
     function StringCalc() {
 
     }
 
-    StringCalc.prototype.add = function() {
+    StringCalc.prototype.add = function () {
         return 0;
     };
 
