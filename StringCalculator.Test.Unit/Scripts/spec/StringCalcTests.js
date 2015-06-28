@@ -37,4 +37,12 @@ describe("String Calulator", function () {
 
     });
 
+    describe("when passed string with 1 number 2", function () {
+
+        it("should return 2", function () {
+            expect(calc.add("2")).toBe(2);
+        });
+
+    });
+
 });
