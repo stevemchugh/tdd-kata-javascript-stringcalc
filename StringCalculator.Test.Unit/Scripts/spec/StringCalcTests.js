@@ -29,4 +29,12 @@ describe("String Calulator", function () {
 
     });
 
+    describe("when passed string with 1 number 1", function () {
+
+        it("should return 1", function () {
+            expect(calc.add("1")).toBe(1);
+        });
+
+    });
+
 });
