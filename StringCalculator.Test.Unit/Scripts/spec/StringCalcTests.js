@@ -21,7 +21,7 @@ describe("String Calulator", function () {
 
     });
 
-    describe("when passed and empty string to calculate", function() {
+    describe("when passed an empty string to calculate", function() {
 
         it("should return 0", function () {
             expect(calc.add("")).toBe(0);
