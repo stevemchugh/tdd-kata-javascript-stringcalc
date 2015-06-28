@@ -5,11 +5,19 @@
 
     }
 
-    StringCalc.prototype.add = function (numbers) {
+    function addAsIntegers(a, b) {
         var radix = 10;
 
+        return parseInt(a, radix) + parseInt(b, radix);
+    }
+
+    StringCalc.prototype.add = function (numbers) {
+        var numberArray;
+
         if (numbers) {
-            return parseInt(numbers, radix);
+            numberArray = numbers.split(",");
+
+            return numberArray.reduce(addAsIntegers, 0);
         }
 
         return 0;

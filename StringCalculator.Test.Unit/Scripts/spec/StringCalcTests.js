@@ -45,4 +45,12 @@ describe("String Calulator", function () {
 
     });
 
+    describe("when passed string with 2 numbers 1,2", function () {
+
+        it("should return 3", function () {
+            expect(calc.add("1,2")).toBe(3);
+        });
+
+    });
+
 });
