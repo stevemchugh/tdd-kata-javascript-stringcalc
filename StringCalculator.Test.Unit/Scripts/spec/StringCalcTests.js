@@ -13,7 +13,7 @@ describe("String Calulator", function() {
         it("will return 0", function() {
             var calc = new StringCalc();
 
-            expect(calc.add("")).toBe(0);
+            expect(calc.add()).toBe(0);
         });
 
     });
