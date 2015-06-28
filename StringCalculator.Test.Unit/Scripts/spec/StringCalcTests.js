@@ -8,4 +8,14 @@ describe("String Calulator", function() {
         expect(calc).not.toBeNull();
     });
 
+    describe("when passed no numbers to calculate", function() {
+
+        it("will return 0", function() {
+            var calc = new StringCalc();
+
+            expect(calc.add("")).toBe(0);
+        });
+
+    });
+
 });
