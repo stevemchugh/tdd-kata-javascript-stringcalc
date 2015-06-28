@@ -53,4 +53,35 @@ describe("String Calulator", function () {
 
     });
 
+    describe("when passed string with 2 numbers 3,3", function () {
+
+        it("should return 6", function () {
+            expect(calc.add("3,3")).toBe(6);
+        });
+
+    });
+
+    describe("when passed string with 3 numbers 3,3,3", function () {
+
+        it("should return 9", function () {
+            expect(calc.add("3,3,3")).toBe(9);
+        });
+
+    });
+
+    describe("when passed string with 4 numbers 3,3,3,2", function () {
+
+        it("should return 11", function () {
+            expect(calc.add("3,3,3,2")).toBe(11);
+        });
+
+    });
+
+    describe("when passed string with 10 numbers 3,3,3,2,2,2,1,1,1,1", function () {
+
+        it("should return 19", function () {
+            expect(calc.add("3,3,3,2,2,2,1,1,1,1")).toBe(19);
+        });
+
+    });
 });
